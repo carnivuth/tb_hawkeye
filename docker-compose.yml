@@ -1,0 +1,8 @@
+services:
+  tb_eagleeye:
+    container_name: tb_eagleeye
+    image: tb_eagleeye
+    ports:
+      - "8080:80"
+    volumes:
+      - "~/tb_eagleeye/var:/var/lib/tb_eagleeye"
