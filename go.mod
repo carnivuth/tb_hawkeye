@@ -1,4 +1,4 @@
-module github.com/carnivuth/tb_eagleeye
+module github.com/carnivuth/tb_hawkeye
 
 go 1.23.0
 

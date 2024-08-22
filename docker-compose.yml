@@ -1,8 +1,8 @@
 services:
-  tb_eagleeye:
-    container_name: tb_eagleeye
-    image: tb_eagleeye
+  tb_hawkeye:
+    container_name: tb_hawkeye
+    image: tb_hawkeye
     ports:
       - "8080:80"
     volumes:
-      - "~/tb_eagleeye/var:/var/lib/tb_eagleeye"
+      - "~/tb_hawkeye/var:/var/lib/tb_awkeye"
