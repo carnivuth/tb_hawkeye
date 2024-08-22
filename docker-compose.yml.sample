@@ -1,6 +1,6 @@
 services:
   tb_hawkeye:
-    container_name: tb_hawkeye
+    container_name: carnivuth/tb_hawkeye
     image: tb_hawkeye
     ports:
       - "8080:80"
